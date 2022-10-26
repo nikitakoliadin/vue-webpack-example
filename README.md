@@ -36,6 +36,18 @@ yarn test:e2e
 yarn lint
 ```
 
+### Compiles and minifies for production before deploy
+
+```
+yarn predeploy
+```
+
+### Deploy
+
+```
+yarn deploy
+```
+
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
