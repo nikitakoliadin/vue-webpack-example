@@ -2,12 +2,15 @@
   "name": "vue-webpack-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://qThegamEp.github.io/vue-webpack-example",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -37,6 +40,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "geckodriver": "^3.0.1",
+    "gh-pages": "^4.0.0",
     "jest": "^27.0.5",
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5"
