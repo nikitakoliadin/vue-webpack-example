@@ -2,7 +2,7 @@
   "name": "vue-webpack-example",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikitakoliadin.github.io/vue-webpack-example/",
+  "homepage": "https://nikitakoliadin.github.io/vue-webpack-example",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
